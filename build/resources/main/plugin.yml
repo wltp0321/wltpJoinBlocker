@@ -1,0 +1,14 @@
+name: JoinBlocker
+version: '1.0-SNAPSHOT'
+main: world.wltp.joinblocker.Main
+api-version: '1.21'
+
+commands:
+  reloadjoinblocker:
+    description: Reloads JoinBlocker configuration
+    usage: /reloadjoinblocker
+    permission: joinblocker.reload
+permissions:
+  joinblocker.reload:
+    description: Allows reloading JoinBlocker config
+    default: op

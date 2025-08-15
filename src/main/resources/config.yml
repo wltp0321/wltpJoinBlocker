@@ -1,0 +1,20 @@
+# 점검 모드 자동 적용 날짜 및 시간 (UTC-9 기준)
+maintenance:
+  start-date: "2025-08-20"  # 점검 시작 날짜
+  end-date: "2025-08-25"    # 점검 종료 날짜
+  start-time: "01:00"       # 점검 시작 시간
+  end-time: "09:00"         # 점검 종료 시간
+
+# 점검 모드 시 허용 닉네임
+allowed-names:
+  - MyName
+
+# 접속 차단 메시지
+kick-message: |
+  &6&l서버 점검 중!
+  &e현재 서버는 점검 중입니다.
+  &e점검 시간: &a%startDate% &e~ &a%endDate% (UTC-9)
+  &b잠시 후 다시 접속해주세요!
+
+# 점검 시간대
+timezone: "Asia/Seoul"
